@@ -171,6 +171,18 @@ LED[0] = 1 (ON)
 | GPIO_0_D0 (RX) | D3 |
 | GPIO_0_D1 (TX) | C3 |
 
+### Pin Planner Reference
+
+The following image shows the Quartus Pin Planner view with all assigned pins for the DE0-Nano device (Cyclone IV E - EP4CE22F17C6N):
+
+![Pin Planner - DE0-Nano UART](pin_planner.png)
+
+This visualization displays:
+- Clock and control input pins (CLOCK_50, KEY[0], KEY[1])
+- LED output pins (LED[0] through LED[7])
+- UART GPIO pins for serial communication (GPIO_0_D0, GPIO_0_D1)
+- Wire bond diagram showing physical pin locations on the Cyclone IV E package
+
 ## Operation Flow
 
 1. **Initialization:** System boots with KEY[0] active (reset)
