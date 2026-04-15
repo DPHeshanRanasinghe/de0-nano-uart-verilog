@@ -1,0 +1,33 @@
+# Quartus build artifacts
+db/
+incremental_db/
+output_files/
+simulation/
+*.bak
+*.qws
+*.dpf
+*.rpt
+*.jdi
+*.sof
+*.pof
+*.cdf
+*.done
+
+# Temporary files
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
